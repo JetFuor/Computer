@@ -13,7 +13,7 @@ import time, datetime
 def __init__driver():
     global browser
     options = Options()
-    browser = webdriver.Firefox()
+    browser = webdriver.Chrome("C:/Users/Stephen/Downloads/chromedriver_win32/chromedriver")
 
 def get_btc():
     global btc_price
