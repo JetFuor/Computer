@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import time
 import pyautogui
-import string
+import json
 
 # Obtaining the login from the text file
 with open("PersonalCoding/password.txt", 'r') as f:
@@ -139,34 +139,13 @@ def tagging_people(comments):
             end_position = tempstring.find('</a>')
             comments[i] = tempstring[:start_position] + tempstring[end_position+5:]
 
-# ISSUES EMOJIS CAN'T BE STORED
-# Seperating the comments and counting specific words
+# Storing each comment into json file.
 def storing_comments(comments):
-    emojis = []
-    punc = string.punctuation
-    with open("a_comments.txt","a") as f:
+    with open("PersonalCoding/a_comments.json","a") as f:
         for i in range(len(comments)):
-            word = comments[i]
-            deleted = 0
-            for n in range(len(word)):
-                letter = word[n-deleted]
-                if letter.isalnum() or letter.isspace():
-                    pass
-                else:
-                    word = word[:n-deleted] + word[n+1-deleted:]
-                    deleted += 1
-                    if punc.find(letter) == -1:
-                       emojis.append(letter)
-            f.write(word)
-    print(emojis)
-           
+            json.dump(comments[i], f)
+            f.write("\n")
             
-
-# STUPID BS WAY IDEA
-# GO THROUGH THING
-# TAKE EMOJIS OUT
-# STORE INTO ANOTHER LIST
-
 def main():
     accounts()
     init_driver("https://www.instagram.com/accounts/login/")
