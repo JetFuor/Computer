@@ -28,12 +28,6 @@ from selenium.webdriver.chrome.options import Options
 import time, datetime
 import pandas as pd
 
-driver = webdriver.Chrome(executable_path=r"C:/Users/Stephen/Downloads/chromedriver_win32/chromedriver")
-driver.get("https://overwatchleague.com/en-us/schedule?stage=regular_season&week=1")
-chengduscore = driver.find_element_by_xpath("//h2[contains(@class,'section-titlestyles__Title-sc-1wlp19u-3 juLYcv')]").text
-driver.quit
-print(chengduscore)
-
 
 
 

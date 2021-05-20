@@ -111,4 +111,20 @@ new_string = string[:start_position] + string[end_position+5:]
 print(new_string)
 '''
 
-# Deleted first 2 comments of shower thots
+import string
+
+emojis = []
+punc = string.punctuation
+word = "😍!!!!"
+deleted = 0
+for n in range(len(word)):
+    letter = word[n-deleted]
+    if letter.isalnum() or letter.isspace():
+        pass
+    else:
+        word = word[:n-deleted] + word[n+1-deleted:]
+        deleted += 1
+        if punc.find(letter) == -1:
+            emojis.append(letter)
+
+print(word + ": hehe")
