@@ -70,3 +70,26 @@ with open("password.txt") as file:
 browser.find_element_by_class_name('_2hvTZ pexuQ zyHYP').send_keys('nutwillinfernape@gmail.com')
 browser.find_element_by_name("password").send_keys('infernape123')
 browser.find_element_by_xpath("//button[contains(@class,'sqdOP  L3NKy   y3zKF     ')]").click()
+
+
+
+
+
+
+# WORD STUFF
+
+import pandas as pd
+from wordcloud import WordCloud, STOPWORDS 
+import matplotlib.pyplot as plt
+stopwords = set(STOPWORDS)
+n = 5  # n in head(n) determine the numbers of rows to read
+
+with open("lizziecomment.txt", "r") as file:
+    df = file.read()
+print(df)
+
+positive_wordcloud = WordCloud(width = 1600, height = 1600, background_color ='white', stopwords = stopwords, min_font_size = 10).generate(df) 
+plt.figure(figsize = (9, 9), facecolor = None) 
+plt.imshow(positive_wordcloud)
+plt.axis("off") # off the pixel axis
+plt.show()

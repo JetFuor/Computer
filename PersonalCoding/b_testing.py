@@ -113,13 +113,21 @@ print(new_string)
 
 import string
 
+def isEnglish(s):
+    try:
+        s.encode(encoding='utf-8').decode('ascii')
+    except UnicodeDecodeError:
+        return False
+    else:
+        return True
+
 emojis = []
 punc = string.punctuation
-word = "😍!!!!"
+word = "辣的👏🏽👏🏽"
 deleted = 0
 for n in range(len(word)):
     letter = word[n-deleted]
-    if letter.isalnum() or letter.isspace():
+    if isEnglish(letter) or letter.isspace():
         pass
     else:
         word = word[:n-deleted] + word[n+1-deleted:]

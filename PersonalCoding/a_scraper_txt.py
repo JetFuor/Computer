@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from selenium import *
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -70,7 +72,7 @@ def search_people():
         search_bar.send_keys("\n")
         time.sleep(3)
         looping_images()
-        time.sleep(3)
+        time.sleep(2)
 
 # Looping through each image on the users account
 def looping_images():
@@ -78,7 +80,7 @@ def looping_images():
     image_count = int(driver.find_element_by_xpath("//span[contains(@class,'g47SY ')]").text)
     first_photo = driver.find_element_by_xpath("//div[contains(@class,'v1Nh3 kIKUG  _bz0w')]")
     first_photo.click() # Looping through each image
-    time.sleep(3)
+    time.sleep(2)
     for i in range(image_count):
         too_many_comments()
         obtaining_comments()
@@ -96,7 +98,7 @@ def too_many_comments():
         soup = str(BeautifulSoup(driver.page_source, 'html.parser'))
         if soup.find('dCJp8 afkep') != -1:
             driver.find_element_by_xpath("//button[contains(@class,'dCJp8 afkep')]").click()
-            time.sleep(1)
+            time.sleep(2)
         else:
             visible = False
 
@@ -139,7 +141,6 @@ def tagging_people(comments):
             end_position = tempstring.find('</a>')
             comments[i] = tempstring[:start_position] + tempstring[end_position+5:]
 
-
 # Removing punctuation and emojis and storing into a text file
 def storing_comments(comments):
     emojis = []
@@ -150,22 +151,23 @@ def storing_comments(comments):
             deleted = 0
             for n in range(len(word)):
                 letter = word[n-deleted]
-                if letter.isalnum() or letter.isspace():
+                if isEnglish(letter) or letter.isspace():
                     pass
                 else:
                     word = word[:n-deleted] + word[n+1-deleted:]
                     deleted += 1
                     if punc.find(letter) == -1:
-                       emojis.append(letter)
+                        emojis.append(letter)
             f.write(word + "\n")
     print(emojis)
-           
-            
 
-# STUPID BS WAY IDEA
-# GO THROUGH THING
-# TAKE EMOJIS OUT
-# STORE INTO ANOTHER LIST
+def isEnglish(s):
+    try:
+        s.encode(encoding='utf-8').decode('ascii')
+    except UnicodeDecodeError:
+        return False
+    else:
+        return True
 
 def main():
     accounts()

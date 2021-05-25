@@ -145,7 +145,7 @@ def storing_comments(comments):
         for i in range(len(comments)):
             json.dump(comments[i], f)
             f.write("\n")
-            
+
 def main():
     accounts()
     init_driver("https://www.instagram.com/accounts/login/")
