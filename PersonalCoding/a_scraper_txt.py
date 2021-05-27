@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 import time
 import pyautogui
 import string
+# Regular expressions re
 
 # Obtaining the login from the text file
 with open("PersonalCoding/password.txt", 'r') as f:
