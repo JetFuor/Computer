@@ -1,0 +1,21 @@
+1626161400976	geckodriver	INFO	Listening on 127.0.0.1:59716
+1626161404038	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileJBuOLI"
+1626161472627	geckodriver	INFO	Listening on 127.0.0.1:50285
+1626161475669	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileOm7STv"
+1626161476318	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileOm7STv\\search.json.mozlz4", (void 0)))
+1626161480069	Marionette	INFO	Listening on port 50293
+1626161480533	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 18212, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626172578463	Marionette	INFO	Stopped listening on port 50293
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626247576436	geckodriver	INFO	Listening on 127.0.0.1:63892
+1626247579382	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilev17zjN"
+1626247580986	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilev17zjN\\search.json.mozlz4", (void 0)))
+Invalid port. Exiting...
+Invalid port. Exiting...
