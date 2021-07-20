@@ -1,10 +1,8 @@
-folderList = 'E:/17th Bday'
-
+image = "123.jpg"
+templen = len(image) - 1
 while True:
-    i = 0
-    if folderList[i] == "/":
-        folderList = folderList[:i] + "\\" + folderList[i + 1:] 
-    if i == len(folderList):
+    if image[templen] == ".":
         break
-
-print(folderList)
+    else:
+        templen = templen - 1
+print(image[templen:])

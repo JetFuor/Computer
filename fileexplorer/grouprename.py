@@ -15,42 +15,39 @@ import easygui
 from tkinter import filedialog
 from tkinter import messagebox as mb
 
-def open_window():
-    read=easygui.fileopenbox()
-    return read
-
-# rename file function
-def rename_file():
-    chosenFile = open_window()
-    path1 = os.path.dirname(chosenFile)
-    extension=os.path.splitext(chosenFile)[1]
-    print("Enter new name for the chosen file")
-    newName=input()
-    path = os.path.join(path1, newName+extension)
-    print(path)
-    os.rename(chosenFile,path) 
-    mb.showinfo('confirmation', "File Renamed !")
-
 # MY VERSION
 def renaming():
     # OBTAINING FILE NAMES
-    folderList = filedialog.askdirectory()
-    sortlist=sorted(os.listdir(folderList))
+    folderlocation = filedialog.askdirectory()
+    renamingfiles=sorted(os.listdir(folderlocation))
 
     # ASKING FOR WHAT TO RENAME IT TO
-    prefix = input("Enter starting prefix for all images: ")
+    prefix = input("Enter starting prefix for all images: ") + "_"
 
     # CHANGING THE PATHING AND RENAMING EACH FILE
+    renamingfolder = folderlocation
+    i = 0
     while True:
-        i = 0
-        if folderList[i] == "/":
-            folderList = folderList[:i] + "\\" + folderList[i + 1:]
-                
-
-
-
+        if i == len(renamingfolder):
+            break
+        if renamingfolder[i] == "/":
+            renamingfolder = renamingfolder[:i] + "\\\\" + renamingfolder[i + 1:] 
+        i += 1
     
-
+    number = 1
+    for image in renamingfiles:
+        templen = len(image) - 1
+        while True:
+            if image[templen] == ".":
+                break
+            else:
+                templen = templen - 1
+        extension = image[templen:]
+        newfilepath = renamingfolder + "\\\\" + prefix + str(number) + extension
+        oldfilepath = renamingfolder + "\\\\" + image
+        os.rename(oldfilepath,newfilepath)
+        number += 1
+    mb.showinfo('confirmation', "Done!")
 root = Tk()
 
 Label(root, text="Group File Renamer", font=("Helvetica", 16), fg="blue").grid(row = 5, column = 2)
