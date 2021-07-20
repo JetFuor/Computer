@@ -1,30 +1,18 @@
-# Set up the screen
-# Button to click on
-# Obtain location of the files
-# Get names
-# Figure out way to convert to the correct pathing
-# to the correct chosen file
-# Choose a starter for all the files
-# Increment and append the name for each file
-# Seems simple, DO IT YOU FUCK
 
-from tkinter import *
-import shutil         
+from tkinter import *     
 import os
-import easygui
 from tkinter import filedialog
 from tkinter import messagebox as mb
 
-# MY VERSION
 def renaming():
-    # OBTAINING FILE NAMES
+    # Obtaining the file names
     folderlocation = filedialog.askdirectory()
     renamingfiles=sorted(os.listdir(folderlocation))
 
-    # ASKING FOR WHAT TO RENAME IT TO
-    prefix = input("Enter starting prefix for all images: ") + "_"
+    # Obtaining the prefix
+    prefix = entrybox.get()
 
-    # CHANGING THE PATHING AND RENAMING EACH FILE
+    # Changing the path to viable format, see images for reference, we want zrename
     renamingfolder = folderlocation
     i = 0
     while True:
@@ -34,6 +22,7 @@ def renaming():
             renamingfolder = renamingfolder[:i] + "\\\\" + renamingfolder[i + 1:] 
         i += 1
     
+    # Giving each file proper name and renaming it
     number = 1
     for image in renamingfiles:
         templen = len(image) - 1
@@ -42,15 +31,22 @@ def renaming():
                 break
             else:
                 templen = templen - 1
+        # .jpg, .png etc
         extension = image[templen:]
         newfilepath = renamingfolder + "\\\\" + prefix + str(number) + extension
         oldfilepath = renamingfolder + "\\\\" + image
         os.rename(oldfilepath,newfilepath)
         number += 1
     mb.showinfo('confirmation', "Done!")
-root = Tk()
 
-Label(root, text="Group File Renamer", font=("Helvetica", 16), fg="blue").grid(row = 5, column = 2)
-Button(root, text = "Renaming", command = renaming).grid(row=15, column =2)
+# Showing the screen
+root = Tk()
+root.geometry("300x150")
+
+Label(root, text="Group File Renamer", font=("Helvetica", 20), fg="blue").pack(pady="10")
+Label(root, text="Enter the prefix in the box below FIRST", font=("Helvetica", 10), fg="black").pack()
+entrybox = Entry(root, width = 30)
+entrybox.pack()
+Button(root, text = "Choose folder", command = renaming).pack(pady="10")
 
 root.mainloop()
