@@ -5,11 +5,12 @@ from tkinter import *
 import os
 from tkinter import filedialog
 from tkinter import messagebox as mb
+import PIL.Image
 
 def renaming():
     # Obtaining the file names
     folderlocation = filedialog.askdirectory()
-    renamingfiles=sorted(os.listdir(folderlocation))
+    renamingfiles = sorted(os.listdir(folderlocation))
 
     # Obtaining the prefix
     prefix = entrybox.get() + "_"
@@ -38,6 +39,10 @@ def renaming():
         os.rename(oldfilepath,newfilepath)
         number += 1
     mb.showinfo('confirmation', "Done!")
+
+def sorting():
+    pass
+# Look for exif data of images 
 
 # Showing the screen
 root = Tk()
