@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import time
 import pyautogui
-import imageio
+import string
 # Regular expressions re
 
 # Obtaining the login from the text file
@@ -72,33 +72,64 @@ def search_people():
         search_bar.send_keys("\n")
         search_bar.send_keys("\n")
         time.sleep(3)
-        looping_images()
+        looping_post()
         time.sleep(2)
 
 # Looping through each image on the users account
-def looping_images():
+def looping_post():
     driver.implicitly_wait(5)
     image_count = int(driver.find_element_by_xpath("//span[contains(@class,'g47SY ')]").text)
     first_photo = driver.find_element_by_xpath("//div[contains(@class,'v1Nh3 kIKUG  _bz0w')]")
     first_photo.click() # Looping through each image
     time.sleep(2)
-    obtaining_images()
-    """ for i in range(image_count):
-        obtaining_images()
+    for i in range(image_count):
+        loop_imageinpost()
         time.sleep(1)
         pyautogui.press('right')
-        time.sleep(3) """
+        time.sleep(3)
     pyautogui.click(200, 200)
 
-def obtaining_images():
+def loop_imageinpost():
+    global current
+    soup = str(BeautifulSoup(driver.page_source, 'html.parser'))
+    skip = False
+    if soup.find('loop') == -1:
+        current = "image"
+    else:
+        current = "video"
+    if soup.find('coreSpriteRightChevron') != -1: 
+        next_image_button = driver.find_element_by_xpath("//button[contains(@class,'  _6CZji   ')]")
+        next_image_button.click()
+        time.sleep(0.5)
+    else:
+        skip = True
+    while True:
+        if current == "image":
+            obtain_alttext(15)
+        soup = str(BeautifulSoup(driver.page_source, 'html.parser'))
+        if soup.find('coreSpriteRightChevron') != -1:
+            if soup.find('loop') == -1:
+                current = "image"
+            else:
+                current = "video"
+            next_image_button = driver.find_element_by_xpath("//button[contains(@class,'  _6CZji   ')]")
+            next_image_button.click()
+            time.sleep(0.5)
+        else:
+            if soup.find('loop') == -1 and not skip:
+                if current == "image":
+                    obtain_alttext(16)
+                else:
+                    obtain_alttext(15)
+            break
+
+def obtain_alttext(num):
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     images_src = soup.find_all('img', class_='FFVAD')
-    single_image = str(images_src[1])
-    """ start_position = single_image.find("src=") + 4
-    end_position = single_image.find("srcset=") - 1
-    image_url = single_image[start_position:end_position] """
-
-    print(single_image)
+    current_src = str(images_src[num])
+    splittext = current_src.split('"')
+    with open("alttext.txt","a") as f:
+        f.write(splittext[1] + "\n")
 
 def main():
     accounts()

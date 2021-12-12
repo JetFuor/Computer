@@ -5,7 +5,6 @@ from tkinter import *
 import os
 from tkinter import filedialog
 from tkinter import messagebox as mb
-import PIL.Image
 
 def renaming():
     # Obtaining the file names
@@ -39,10 +38,6 @@ def renaming():
         os.rename(oldfilepath,newfilepath)
         number += 1
     mb.showinfo('confirmation', "Done!")
-
-def sorting():
-    pass
-# Look for exif data of images 
 
 # Showing the screen
 root = Tk()

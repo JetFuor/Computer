@@ -1,1 +1,1 @@
-while True:
+from tkinter import *   
