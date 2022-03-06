@@ -393,3 +393,312 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1644135036622	geckodriver	INFO	Listening on 127.0.0.1:55584
+1644135039796	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofile4APo56"
+1644135041825	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofile4APo56\\search.json.mozlz4", (void 0)))
+1644135046621	Marionette	INFO	Listening on port 55593
+1644135047035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644135048402	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644135055997	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1644135116058	Marionette	INFO	Stopped listening on port 55593
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644135134630	geckodriver	INFO	Listening on 127.0.0.1:60514
+1644135137676	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileqahvPH"
+1644135138482	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileqahvPH\\search.json.mozlz4", (void 0)))
+1644135142610	Marionette	INFO	Listening on port 60523
+1644135142994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644135143838	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644135150061	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1644135160057	Marionette	INFO	Stopped listening on port 60523
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644235380908	geckodriver	INFO	Listening on 127.0.0.1:62234
+1644235383804	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofile1kKcXX"
+1644235384826	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofile1kKcXX\\search.json.mozlz4", (void 0)))
+1644235388526	Marionette	INFO	Listening on port 62244
+1644235388734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644235389760	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644235394567	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1644235554939	Marionette	INFO	Stopped listening on port 62244
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644235569900	geckodriver	INFO	Listening on 127.0.0.1:65080
+1644235572926	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilepX27F3"
+1644235573615	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilepX27F3\\search.json.mozlz4", (void 0)))
+1644235576740	Marionette	INFO	Listening on port 59184
+1644235577137	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644235578183	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644235582767	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1644235619432	Marionette	INFO	Stopped listening on port 59184
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644338953307	geckodriver	INFO	Listening on 127.0.0.1:62548
+1644338956508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofile7LWtNQ"
+1644338957584	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofile7LWtNQ\\search.json.mozlz4", (void 0)))
+1644338961595	Marionette	INFO	Listening on port 62557
+1644338961902	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644338963613	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644338968477	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1644338996564	Marionette	INFO	Stopped listening on port 62557
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644339013631	geckodriver	INFO	Listening on 127.0.0.1:53796
+1644339016670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileNb4Idv"
+1644339017368	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileNb4Idv\\search.json.mozlz4", (void 0)))
+1644339020715	Marionette	INFO	Listening on port 53804
+1644339020869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644339022027	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644339027159	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1644339728168	Marionette	INFO	Stopped listening on port 53804
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644496861507	geckodriver	INFO	Listening on 127.0.0.1:64386
+1644496864558	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileIXA3eV"
+1644496867068	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileIXA3eV\\search.json.mozlz4", (void 0)))
+1644496874792	Marionette	INFO	Listening on port 64394
+1644496875335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644496877646	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644496885282	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1644496894076	Marionette	INFO	Stopped listening on port 64394
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644496917650	geckodriver	INFO	Listening on 127.0.0.1:52029
+1644496920663	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilevGbWij"
+1644496921798	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilevGbWij\\search.json.mozlz4", (void 0)))
+1644496926124	Marionette	INFO	Listening on port 52037
+1644496926546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644496927468	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644496934981	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1644496978326	Marionette	INFO	Stopped listening on port 52037
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 828: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1644745060415	geckodriver	INFO	Listening on 127.0.0.1:55740
+1644745063358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileqaQh5y"
+1644745064485	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileqaQh5y\\search.json.mozlz4", (void 0)))
+1644745068044	Marionette	INFO	Listening on port 55750
+1644745068488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644745070061	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644745074479	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1644745174414	Marionette	INFO	Stopped listening on port 55750
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644745301993	geckodriver	INFO	Listening on 127.0.0.1:55907
+1644745304934	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofiler0Ls1F"
+1644745305522	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofiler0Ls1F\\search.json.mozlz4", (void 0)))
+1644745308237	Marionette	INFO	Listening on port 55915
+1644745308628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644745310371	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644745314836	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1644745320861	Marionette	INFO	Stopped listening on port 55915
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645110222000	geckodriver	INFO	Listening on 127.0.0.1:52999
+1645110225037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileQq0KO9"
+1645110227741	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileQq0KO9\\search.json.mozlz4", (void 0)))
+1645110231538	Marionette	INFO	Listening on port 53007
+1645110231809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645110233993	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645110239365	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645110247691	Marionette	INFO	Stopped listening on port 53007
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645110261867	geckodriver	INFO	Listening on 127.0.0.1:53069
+1645110264925	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilez6U7DK"
+1645110265696	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilez6U7DK\\search.json.mozlz4", (void 0)))
+1645110268730	Marionette	INFO	Listening on port 53077
+1645110269140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645110270027	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: viewer-config
+http://requirejs.org/docs/errors.html#scripterror
+1645110274224	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1645110385171	Marionette	INFO	Stopped listening on port 53077
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1646059603608	geckodriver	INFO	Listening on 127.0.0.1:53231
+1646059606650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilebhR0hk"
+1646059608310	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilebhR0hk\\search.json.mozlz4", (void 0)))
+1646059613023	Marionette	INFO	Listening on port 53242
+1646059613645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646059615627	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1646059620471	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646059669244	Marionette	INFO	Stopped listening on port 53241646059670164	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileO7KEiw"
+1646059671012	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileO7KEiw\\search.json.mozlz4", (void 0)))
+1646059674088	Marionette	INFO	Listening on port 62644
+1646059674479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646059676320	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1646059680700	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646059685594	Marionette	INFO	Stopped listening on port 62644
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 2348, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1646147655527	geckodriver	INFO	Listening on 127.0.0.1:54021
+1646147658477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileg9hmrb"
+1646147661114	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileg9hmrb\\search.json.mozlz4", (void 0)))
+1646147668804	Marionette	INFO	Listening on port 54031
+1646147669435	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646147671370	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: viewer-config
+http://requirejs.org/docs/errors.html#scripterror
+1646147679468	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646147719902	Marionette	INFO	Stopped listening on port 54031
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1646147735754	geckodriver	INFO	Listening on 127.0.0.1:51446
+1646147738800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileUY7nG1"
+1646147740378	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofileUY7nG1\\search.json.mozlz4", (void 0)))
+1646147746037	Marionette	INFO	Listening on port 51454
+1646147746446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646147748540	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: viewer-config
+http://requirejs.org/docs/errors.html#scripterror
+1646147756771	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646148256435	Marionette	INFO	Stopped listening on port 51454
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1646327599440	geckodriver	INFO	Listening on 127.0.0.1:55977
+1646327602461	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilelGHbh7"
+1646327603491	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilelGHbh7\\search.json.mozlz4", (void 0)))
+1646327606970	Marionette	INFO	Listening on port 55986
+1646327607022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646327609319	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1646327614129	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646327653212	Marionette	INFO	Stopped listening on port 55986
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1646327674426	geckodriver	INFO	Listening on 127.0.0.1:62322
+1646327677456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilerAod2n"
+1646327678137	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Stephen\\AppData\\Local\\Temp\\rust_mozprofilerAod2n\\search.json.mozlz4", (void 0)))
+1646327681000	Marionette	INFO	Listening on port 62330
+1646327681145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1646327682211	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://savethai.anamai.moph.go.th"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1646327687138	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1646327697583	Marionette	INFO	Stopped listening on port 62330
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
