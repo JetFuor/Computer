@@ -1,0 +1,2 @@
+
+                NewData = f.readline()
