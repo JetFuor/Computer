@@ -16,10 +16,10 @@ def ReadFile():
         return -1
     with open(filename, "r") as f:
         notfull = True
-        NewData = f.readline()
+        NewData = f.readline().strip()
         while notfull == True and NewData != "":
             notfull = Enqueue(QueueData, NewData)
-            NewData = f.readline()
+            NewData = f.readline().strip()
         if notfull:
             return 1 
         else:
